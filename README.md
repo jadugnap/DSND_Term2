@@ -187,3 +187,52 @@ You should be able to see the web app. The number 3001 represents the port where
 
 <a href="https://review.udacity.com/#!/rubrics/1565/view">Rubric</a>
 Follow the Rubric when you work on your project to assure you meet all of the necessary criteria for developing the pipelines and web app.
+
+
+# Project 3 - Recommendations with IBM
+
+
+## Introduction
+For this project you will analyze the interactions that users have with articles on the IBM Watson Studio platform, and make recommendations to them about new articles you think they will like. Below you can see an example of what the dashboard could look like displaying articles on the IBM Watson Platform.
+
+Though the above dashboard is just showing the newest articles, you could imagine having a recommendation board available here that shows the articles that are most pertinent to a specific user.
+
+In order to determine which articles to show to each user, you will be performing a study of the data available on the IBM Watson Studio platform. You can create your own account to become a part of their community, and get a better understanding of their data by creating an account on the platform here.
+
+
+## Your Tasks
+Your project will be divided into the following tasks
+
+### I. Exploratory Data Analysis
+
+Before making recommendations of any kind, you will need to explore the data you are working with for the project. Dive in to see what you can find. There are some basic, required questions to be answered about the data you are working with throughout the rest of the notebook. Use this space to explore, before you dive into the details of your recommendation system in the later sections.
+
+### II. Rank Based Recommendations
+
+To get started in building recommendations, you will first find the most popular articles simply based on the most interactions. Since there are no ratings for any of the articles, it is easy to assume the articles with the most interactions are the most popular. These are then the articles we might recommend to new users (or anyone depending on what we know about them).
+
+### III. User-User Based Collaborative Filtering
+
+In order to build better recommendations for the users of IBM's platform, we could look at users that are similar in terms of the items they have interacted with. These items could then be recommended to the similar users. This would be a step in the right direction towards more personal recommendations for the users. You will implement this next.
+
+### IV. Content Based Recommendations (EXTRA - NOT REQUIRED)
+
+Given the amount of content available for each article, there are a number of different ways in which someone might choose to implement a content based recommendations system. Using your NLP skills, you might come up with some extremely creative ways to develop a content based recommendation system. You are encouraged to complete a content based recommendation system, but not required to do so to complete this project.
+
+### V. Matrix Factorization
+
+Finally, you will complete a machine learning approach to building recommendations. Using the user-item interactions, you will build out a matrix decomposition. Using your decomposition, you will get an idea of how well you can predict new articles an individual might interact with (spoiler alert - it isn't great). You will finally discuss which methods you might use moving forward, and how you might test how well your recommendations are working for engaging users.
+
+
+## Gather Submission Materials
+Either submit your project from the workspace OR here - not both.
+
+Once you are satisfied with the status of your Notebook, you should save it in a format that will make it easy for others to read. You can use the File -> Download as -> HTML (.html) menu to save your notebook as an .html file. If you get an error about "No module name", then open a terminal and try installing the missing module using pip install <module_name> (don't include the "<" or ">" or any words following a period in the module name).
+
+You will submit both your original Notebook and an HTML or PDF copy of the Notebook for review. There is no need for you to include any data files with your submission. If you made reference to other websites, books, and other resources to help you in solving tasks in the project, make sure that you document them. It is recommended that you either add a "Resources" section in a Markdown cell at the end of the Notebook report, or you can include a readme.txt file documenting your sources.
+
+
+## Submit the Project
+When you're ready, double check the project <a href="https://review.udacity.com/#!/rubrics/2322/view">RUBRIC</a>, make revisions as needed, then click on the "Submit Project" button to go to the project submission page. You can submit your files as a .zip archive or you can link to a GitHub repository containing your project files. If you go with GitHub, note that your submission will be a snapshot of the linked repository at time of submission. It is recommended that you keep each project in a separate repository to avoid any potential confusion: if a reviewer gets multiple folders representing multiple projects, there might be confusion regarding what project is to be evaluated.
+
+It can take us up to a week to grade the project, but in most cases it is much faster. You will get an email once your submission has been reviewed. In the meantime, you should feel free to continue on with your learning journey by continuing on to the next module in the program.
