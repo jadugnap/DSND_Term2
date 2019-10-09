@@ -236,3 +236,70 @@ You will submit both your original Notebook and an HTML or PDF copy of the Noteb
 When you're ready, double check the project <a href="https://review.udacity.com/#!/rubrics/2322/view">RUBRIC</a>, make revisions as needed, then click on the "Submit Project" button to go to the project submission page. You can submit your files as a .zip archive or you can link to a GitHub repository containing your project files. If you go with GitHub, note that your submission will be a snapshot of the linked repository at time of submission. It is recommended that you keep each project in a separate repository to avoid any potential confusion: if a reviewer gets multiple folders representing multiple projects, there might be confusion regarding what project is to be evaluated.
 
 It can take us up to a week to grade the project, but in most cases it is much faster. You will get an email once your submission has been reviewed. In the meantime, you should feel free to continue on with your learning journey by continuing on to the next module in the program.
+
+
+
+# Project 4 [Option 1] - Dog Breed Classification
+
+### Project Overview
+Welcome to the dog breed classifier project. This project uses Convolutional Neural Networks (CNNs)! In this project, you will learn how to build a pipeline to process real-world, user-supplied images. Given an image of a dog, your algorithm will identify an estimate of the canine’s breed. If supplied an image of a human, the code will identify the resembling dog breed.
+
+If you choose to complete this project, there are additional lessons in the extracurricular section of the classroom that you will likely find useful.
+
+### Reminder
+If you choose to complete the dog breed classifier project, you still must meet expectations for all the <a href="https://review.udacity.com/#!/rubrics/2345/view">RUBRIC</a> items associated with the Data Scientist Capstone project. That is, you still must deploy your code into an application, or you must write a post to be shared about the technical details of your analysis. The workspace on the next page walks you through one possible solution, but you are welcome to discuss other solutions that are much different.
+
+
+
+# Project 4 [Option 2] - Starbucks Customer Behavior
+<a href="https://www.youtube.com/watch?v=bq-H7M5BU3U">Overview Video</a>
+
+# Project 4 [Option 3] - Arvato Customer Segmentation
+
+<a href="https://www.youtube.com/watch?v=qBR6A0IQXEE">Overview Video</a>
+## Create a Customer Segmentation Report for Arvato Financial Solutions
+To introduce yourself to the scenario you'll be investigating in this capstone project option, take a look at the following video with Timo Reis from Arvato Financial Solutions.
+
+## Hiring Opportunity
+The data and outline of this project was provided by Arvato Financial Solutions, a Bertelsmann subsidiary. High performers on this project will have their Udacity profile sent directly to Arvato for review, and may lead to an interview at either Arvato or Bertelsmann. This is a tremendous opportunity to get access to a data science hiring manager!
+
+## Steps to Complete This Project
+The project has three major steps: the customer segmentation report, the supervised learning model, and the Kaggle Competition.
+
+### 1. Customer Segmentation Report
+This section will be similar to the corresponding project in Term 1 of the program, but the datasets now include more features that you can potentially use. You'll begin the project by using unsupervised learning methods to analyze attributes of established customers and the general population in order to create customer segments.
+
+### 2. Supervised Learning Model
+You'll have access to a third dataset with attributes from targets of a mail order campaign. You'll use the previous analysis to build a machine learning model that predicts whether or not each individual will respond to the campaign.
+
+### 3. Kaggle Competition
+Once you've chosen a model, you'll use it to make predictions on the campaign data as part of a Kaggle Competition. You'll rank the individuals by how likely they are to convert to being a customer, and see how your modeling skills measure up against your fellow students.
+
+
+
+# Project 4 [Option 4] - Spark for Customer Churn Prediction
+
+<a href="https://www.youtube.com/watch?v=lPCzCEG2yRs">Overview Video</a>
+### What will I learn?
+You'll learn how to manipulate large and realistic datasets with Spark to engineer relevant features for predicting churn. You'll learn how to use Spark MLlib to build machine learning models with large datasets, far beyond what could be done with non-distributed technologies like scikit-learn.
+
+### Career Relevance
+Predicting churn rates is a challenging and common problem that data scientists and analysts regularly encounter in any customer-facing business. Additionally, the ability to efficiently manipulate large datasets with Spark is one of the highest-demand skills in the field of data.
+
+### Essential Skills
+Load large datasets into Spark and manipulate them using Spark SQL and Spark Dataframes
+Use the machine learning APIs within Spark ML to build and tune models
+Integrate the skills you've learned in the Spark course and the Data Scientist Nanodegree program
+Take the Spark Course
+
+You can find the Spark course in your Extracurriculars section.
+
+### Project Instructions
+The full dataset is 12GB, of which you can analyze a mini subset in the workspace on the following page. Optionally, you can choose to follow the instructions in the Extracurricular course to deploy a Spark cluster on the cloud using AWS or IBM Cloud to analyze a larger amount of data. Currently we have the full 12GB dataset available to you if you use AWS. If you use IBM, you can download a medium sized dataset to upload to your cluster.
+
+Details on how to do this using AWS or IBM Cloud are included in the last lesson of the Extracurricular Spark Course content linked above. Note that this part is optional, and you will not receive credits to fund your deployment. You can do the IBM portion for free. Using AWS will cost you around $30 if you run a cluster up for a week with the settings we provide.
+
+Once you've built your model, either in the classroom workspace or in the cloud with AWS or IBM, download your notebook and complete the remaining components of your Data Scientist Capstone project, including thorough documentation in a README file in your Github repository, as well as a web app or blog post explaining the technical details of your project. Be sure to review the Project <a href="https://review.udacity.com/#!/rubrics/2345/view">RUBRIC</a> thoroughly before submitting your project.
+
+### Submission Instructions
+Create a GitHub repository for this project, containing your notebook and README file. Once your project is finished, submit the URL of this repository.
