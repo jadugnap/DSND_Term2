@@ -61,6 +61,12 @@ In the Project Workspace, you'll find a data set containing real messages that w
 
 Your project will include a web app where an emergency worker can input a new message and get classification results in several categories. The web app will also display visualizations of the data. This project will show off your software skills, including your ability to create basic data pipelines and write clean, organized code!
 
+Below are a few screenshots of the web app.
+
+![overview chart](https://video.udacity-data.com/topher/2018/September/5b967bef_disaster-response-project1/disaster-response-project1.png)
+
+![result messages](https://video.udacity-data.com/topher/2018/September/5b967cda_disaster-response-project2/disaster-response-project2.png)
+
 
 ## Project Components
 There are three components you'll need to complete for this project.
